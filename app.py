@@ -6,7 +6,7 @@ import requests
 app = Flask(__name__)
 
 # 🔑 API Keys
-genai.configure(api_key="AIzaSyAfSKFkki7qfSbvCUTyb_8b1e0pCpGl5b8")
+GEMINI_API_KEY=genai.configure(api_key="AIzaSyAfSKFkki7qfSbvCUTyb_8b1e0pCpGl5b8")
 YOUTUBE_API_KEY = "AIzaSyCToJ5AeKMvmyT8ScMPE4d6xFLEcpylbs4"
 
 @app.route('/')
@@ -150,3 +150,4 @@ Format with:
 
 if __name__ == '__main__':
     app.run(debug=True)
+
