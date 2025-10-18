@@ -81,7 +81,8 @@ Create a detailed roadmap with:
 6. Attractive formatting with <br> and <div> tags.
 """
             response = model.generate_content(prompt)
-            formatted = response.text
+            formatted = response.candidates[0].content.parts[0].text if response.candidates else "No response from Gemini."
+
             html_output = f"""
             <div style='background:white; color:black; border-radius:15px; padding:25px;'>{formatted}</div>
             """
@@ -150,4 +151,5 @@ Format with:
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
