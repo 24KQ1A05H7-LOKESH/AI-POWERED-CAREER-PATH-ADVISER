@@ -1,5 +1,5 @@
 
-🌟 AI Powered Career Path Finder
+🌟 AI Powered Career Path Adviser
 
 🚀 Discover your perfect career path with AI
 
