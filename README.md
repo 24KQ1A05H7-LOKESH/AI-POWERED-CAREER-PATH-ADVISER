@@ -73,7 +73,7 @@ Follow these steps to run the project locally 👇
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/AI-Career-Path-Finder.git
+git clone https://github.com/24KQ1A05H7-LOKESH/AI-Career-Path-Adviser.git
 cd AI-Career-Path-Finder
 
 2️⃣ Install Dependencies
